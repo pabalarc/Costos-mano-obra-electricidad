@@ -1,0 +1,915 @@
+[
+    {
+        "category_name": "BAJA TENSIÓN",
+        "category_items": [
+            {
+                "sub_category_name": "Acometida y tableros",
+                "sub_category_items": [
+                    {
+                        "description": "Acometida monofásica con sistema doble aislación sin jabalina",
+                        "price": 160000
+                    },
+                    {
+                        "description": "Acometida trifásica hasta 10 Kw con sistema doble aislación sin jabalina",
+                        "price": 242834
+                    },
+                    {
+                        "description": "Acometida trifásica de 11 a 35 Kw",
+                        "price": 315821
+                    },
+                    {
+                        "description": "Acometida trifásica de 36 a 50 Kw",
+                        "price": 410435
+                    },
+                    {
+                        "description": "Acometida trifásica mas de 50 Kw",
+                        "price": 615618
+                    },
+                    {
+                        "description": "Tendido de acometida subterráneo monofásico (x 10 m)",
+                        "price": 219489
+                    },
+                    {
+                        "description": "Zanjeo x metro (25 x 70 cm) tendido de cable y relleno con protecciones mecánicas",
+                        "price": 19527
+                    },
+                    {
+                        "description": "Puesta a tierra: jabalina + caja de inspección",
+                        "price": 41745
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Canalización embutida",
+                "sub_category_items": [
+                    {
+                        "description": "Cañería PVC rígido y caja de boca (centro, aplique y toma) hasta 50 bocas",
+                        "price": 24610
+                    },
+                    {
+                        "description": "Cañería PVC rígido y caja de paso y/o distribución, hasta 50 bocas",
+                        "price": 24610
+                    },
+                    {
+                        "description": "Cañería PVC rígido y caja para interruptores (punto o combinación) hasta 50 bocas",
+                        "price": 24610
+                    },
+                    {
+                        "description": "Cañería PVC rígido y caja de boca (centro, aplique y toma) de 51 a 100 bocas",
+                        "price": 20171
+                    },
+                    {
+                        "description": "Cañería PVC rígido y caja de paso y/o distribución, de 51 a 100 bocas",
+                        "price": 20171
+                    },
+                    {
+                        "description": "Cañería PVC rígido y caja para interruptores (punto o combinación) de 51 a 100 bocas",
+                        "price": 20171
+                    },
+                    {
+                        "description": "Cañería PVC rígido y colocación de tablero: sumar caños entrantes y salientes del tablero y multiplicar por:",
+                        "price": 24610
+                    },
+                    {
+                        "description": "Cañería PVC flexible y caja de boca (centro, aplique y toma) hasta 50 bocas",
+                        "price": 17595
+                    },
+                    {
+                        "description": "Cañería PVC flexible y caja de paso y/o distribución, hasta 50 bocas",
+                        "price": 17595
+                    },
+                    {
+                        "description": "Cañería PVC flexible y caja para interruptores (punto o combinación) hasta 50 bocas",
+                        "price": 17595
+                    },
+                    {
+                        "description": "Cañería PVC flexible y caja de boca (centro, aplique y toma) de 51 a 100 bocas",
+                        "price": 14398
+                    },
+                    {
+                        "description": "Cañería PVC flexible y caja de paso y/o distribución, de 51 a 100 bocas",
+                        "price": 14398
+                    },
+                    {
+                        "description": "Cañería PVC flexible y caja para interruptores (punto o combinación) hasta 50 bocas",
+                        "price": 14398
+                    },
+                    {
+                        "description": "Cañería PVC flexible y colocación de tablero: sumar caños entrantes y salientes del tablero y multiplicar por:",
+                        "price": 17595
+                    },
+                    {
+                        "description": "Cañería metálica y caja de boca (centro, aplique y toma) hasta 50 bocas",
+                        "price": 29739
+                    },
+                    {
+                        "description": "Cañería metálica y caja para interruptores (punto o combinación) hasta 50 bocas",
+                        "price": 29739
+                    },
+                    {
+                        "description": "Cañería metálica y caja para interruptores (punto o combinación) hasta 50 bocas",
+                        "price": 29739
+                    },
+                    {
+                        "description": "Cañería metálica y caja de boca (centro, aplique y toma) de 51 a 100 bocas",
+                        "price": 24955
+                    },
+                    {
+                        "description": "Cañería metálica y caja de paso y/o distribución, de 51 a 100 bocas",
+                        "price": 24955
+                    },
+                    {
+                        "description": "Cañería metálica y caja para interruptores (punto o combinación) de 51 a 100 bocas",
+                        "price": 24955
+                    },
+                    {
+                        "description": "Cañería metálica + colocación de tablero: sumar caños entrantes y salientes del tablero y multiplicar por:",
+                        "price": 29739
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Canalización embutida en Durlock",
+                "sub_category_items": [
+                    {
+                        "description": "Cañería PVC rígido de boca (centro, aplique, toma, caja de interruptores y de distribución) hasta 50 cajas",
+                        "price": 18538
+                    },
+                    {
+                        "description": "Cañería metálica de boca (centro, aplique, toma, caja de interruptores y de distribución) hasta 50 bocas",
+                        "price": 22609
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Canalización exterior",
+                "sub_category_items": [
+                    {
+                        "description": "Cañería PVC de boca (centro, aplique, toma, caja de interruptores y de distribución) hasta 50 bocas",
+                        "price": 18538
+                    },
+                    {
+                        "description": "Cañería PVC de boca (centro, aplique, toma, caja de interruptores y de distribución) de 51 a 100 bocas",
+                        "price": 15042
+                    },
+                    {
+                        "description": "Cañería metálica de boca (centro, aplique, toma, caja de interruptores y de distribución) hasta 50 bocas",
+                        "price": 20171
+                    },
+                    {
+                        "description": "Cañería metálica de boca (centro, aplique, toma, caja de interruptores y de distribución) de 51 a 100 bocas",
+                        "price": 16629
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Canalización de Cablecanal",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación x metro de cablecanal poliducto PVC",
+                        "price": 8625
+                    },
+                    {
+                        "description": "Colocación de bocas de tensión exterior",
+                        "price": 9614
+                    },
+                    {
+                        "description": "Cableado de bocas de tensión x metro",
+                        "price": 8970
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Canalización y cableado con pisoductos / poliductos",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación de pisoductos x metro",
+                        "price": 18883
+                    },
+                    {
+                        "description": "Colocación de cajas de piso de tomas y o derivación o curvas verticales o curvas horizontales",
+                        "price": 48967
+                    },
+                    {
+                        "description": "Colocación de periscopios",
+                        "price": 25921
+                    },
+                    {
+                        "description": "Cableado por cada vía del pisoducto con cables de alimentación y/o de comunicación",
+                        "price": 21574
+                    },
+                    {
+                        "description": "Instalación de tomas en periscopios",
+                        "price": 15042
+                    },
+                    {
+                        "description": "Colocación de tomas de TV y teléfono con cableado",
+                        "price": 29440
+                    },
+                    {
+                        "description": "Colocación de tomas de red con cableado",
+                        "price": 51175
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Canalización con bandejas portacables y perfil C",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación x metro a altura h < 4 m, anchos de bandeja hasta 300mm (escalera o perforada)",
+                        "price": 13455
+                    },
+                    {
+                        "description": "Instalación x metro a altura h < 4 m, anchos de bandeja de 450 y 600 m (escalera o perforada)",
+                        "price": 15502
+                    },
+                    {
+                        "description": "Instalación x metro a altura h > 4 m, anchos de bandeja hasta 300mm (escalera o perforada)",
+                        "price": 19826
+                    },
+                    {
+                        "description": "Instalación x metro a altura h > 4 m, anchos de bandeja de 450 y 600 m (escalera o perforada)",
+                        "price": 23207
+                    },
+                    {
+                        "description": "Instalación x metro a altura h < 4 m con perfil C",
+                        "price": 11132
+                    },
+                    {
+                        "description": "Instalación x metro a altura h < 4 m con perfil C",
+                        "price": 13915
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Cableado en cañerías",
+                "sub_category_items": [
+                    {
+                        "description": "Cableado de boca (centro, aplique y toma) hasta 50 bocas",
+                        "price": 21758
+                    },
+                    {
+                        "description": "Cableado de boca(centro, aplique y toma) de 51 a 100 bocas",
+                        "price": 17940
+                    },
+                    {
+                        "description": "Recableado (incluye sacar artefactos y llaves y su nueva instalación)",
+                        "price": 26864
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Cableado en bandejas portacables",
+                "sub_category_items": [
+                    {
+                        "description": "Cableado de cables subterráneos hasta 4 x 10 mm2 ó 1 x 35mm2 a h < 4 m (x metros)",
+                        "price": 6486
+                    },
+                    {
+                        "description": "Cableado de cables subterráneos mayores 4 x 10 mm2 ó mayores 1 x 35mm2 h < 4 m (x metros)",
+                        "price": 10074
+                    },
+                    {
+                        "description": "Cableado de cables subterráneos hasta 4 x 10 mm2 ó 1 x 35mm2 a h > 4 m (x metros)",
+                        "price": 10074
+                    },
+                    {
+                        "description": "Cableado de cables subterráneos mayores 4 x 10 mm2 ó mayores 1 x 35 mm2 < 4 m (x metros)",
+                        "price": 20171
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Colocación de interruptores, tomas, etc",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación de interruptores un efecto y/o pulsadores",
+                        "price": 6394
+                    },
+                    {
+                        "description": "Instalación de interruptores un efecto combinación",
+                        "price": 9614
+                    },
+                    {
+                        "description": "Instalación de tomacorrientes simple",
+                        "price": 6394
+                    },
+                    {
+                        "description": "Instalación de tomacorrientes dobles",
+                        "price": 9614
+                    },
+                    {
+                        "description": "Instalación de tomacorrientes cuádruples en cajas 100 x 100",
+                        "price": 16974
+                    },
+                    {
+                        "description": "Instalación de interruptores un efecto combinación doble",
+                        "price": 11201
+                    },
+                    {
+                        "description": "Instalación de interruptores un efecto doble",
+                        "price": 8027
+                    },
+                    {
+                        "description": "Instalación de interruptores un efecto triple",
+                        "price": 8855
+                    },
+                    {
+                        "description": "Instalación de regulador de velocidad ventilador o dimmer intensidad",
+                        "price": 9039
+                    },
+                    {
+                        "description": "Instalación de Interruptor cuatro vias",
+                        "price": 9039
+                    },
+                    {
+                        "description": "Instalación de sensores de humo, gases, inundación, etc. en caja rectangular",
+                        "price": 16974
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Colocación de artefactos",
+                "sub_category_items": [
+                    {
+                        "description": "Colocación de artefacto tipo (aplique, extractores de baño, campanillas, etc.)",
+                        "price": 19826
+                    },
+                    {
+                        "description": "Luminaria exterior con columna hasta 3 m",
+                        "price": 92483
+                    },
+                    {
+                        "description": "Luminaria exterior con brazos hasta 4 m de altura amurado a pared o columna",
+                        "price": 66861
+                    },
+                    {
+                        "description": "Luminaria exterior de aplicar en muro en intemperie (Ip x 5 ó Ip x 6)",
+                        "price": 32568
+                    },
+                    {
+                        "description": "Spot dicroica y/o halospot con trafo embutido",
+                        "price": 19527
+                    },
+                    {
+                        "description": "Spot incandescente de aplicar",
+                        "price": 14099
+                    },
+                    {
+                        "description": "Ventilador de techo (incluye el tendido de conductor para el regulador de velocidad)",
+                        "price": 51175
+                    },
+                    {
+                        "description": "Armado y colocación de artefacto de tubos 1-3u",
+                        "price": 38065
+                    },
+                    {
+                        "description": "Plafones embutidos en cielorraso de durlock",
+                        "price": 22425
+                    },
+                    {
+                        "description": "Luminaria en intemperie amurado a pared",
+                        "price": 14467
+                    },
+                    {
+                        "description": "Luminaria < 1 m en tierra c/construcción de base de hormigón (no incluye tendido de cable subterráneo)",
+                        "price": 48852
+                    },
+                    {
+                        "description": "Luminaria de piletas de natación y/o fuentes",
+                        "price": 59685
+                    },
+                    {
+                        "description": "Instalación de artefacto de iluminación con fotocélula individual",
+                        "price": 34569
+                    },
+                    {
+                        "description": "Instalación de luz de emergencia",
+                        "price": 31050
+                    },
+                    {
+                        "description": "Sistema autónomo para incorporar a artefacto",
+                        "price": 58236
+                    },
+                    {
+                        "description": "Armado y colocación de luminarias a > 6 m de altura",
+                        "price": 79373
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Colocación de elementos de protección y comando",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación Interruptor Diferencial Bipolar en el armado de tablero nuevo",
+                        "price": 12581
+                    },
+                    {
+                        "description": "Instalación interruptor termomagnético bipolar en el armado de tablero nuevo",
+                        "price": 9683
+                    },
+                    {
+                        "description": "Instalación interruptor diferencial tetrapolar en el armado de tablero nuevo",
+                        "price": 16445
+                    },
+                    {
+                        "description": "Instalación interruptor termomagnético tetrapolar en el armado de tablero nuevo",
+                        "price": 13570
+                    },
+                    {
+                        "description": "Instalación interruptor diferencial bipolar en tablero existente",
+                        "price": 84157
+                    },
+                    {
+                        "description": "Instalación interruptor diferencial tetrapolar en tablero existente",
+                        "price": 110699
+                    },
+                    {
+                        "description": "Instalación protector de sobretensiones por descargas atmosféricas monofásicos",
+                        "price": 139127
+                    },
+                    {
+                        "description": "Instalación protector de sobretensiones por descargas atmosféricas trifásicos",
+                        "price": 190302
+                    },
+                    {
+                        "description": "Instalación protector de sub y sobretensiones monofásicos",
+                        "price": 83467
+                    },
+                    {
+                        "description": "Instalación protector de sub y sobretensiones trifásicos",
+                        "price": 102396
+                    },
+                    {
+                        "description": "Instalación contactor inversor para control de circuitos esenciales y no esenciales",
+                        "price": 171833
+                    },
+                    {
+                        "description": "Armado e instalación de tablero de comando de bomba de agua edificio departamentos",
+                        "price": 189198
+                    },
+                    {
+                        "description": "Armado e instalación de tablero de comando de bomba de agua domiciliaria",
+                        "price": 130456
+                    },
+                    {
+                        "description": "Instalación de sistema de automatización de bombeo (automáticos de tanque y cisterna)",
+                        "price": 55660
+                    },
+                    {
+                        "description": "Instalación de sistema de automatización de cartelería",
+                        "price": 87561
+                    },
+                    {
+                        "description": "Instalación de interruptor de escalera en caja rectangular",
+                        "price": 33396
+                    },
+                    {
+                        "description": "Instalación de interruptor de escalera en tablero",
+                        "price": 55660
+                    },
+                    {
+                        "description": "Instilación de pararrayos hasta 5 pisos < 20 m",
+                        "price": 1446769
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Tablero de comando de motores",
+                "sub_category_items": [
+                    {
+                        "description": "1 arranque directo",
+                        "price": 72933
+                    },
+                    {
+                        "description": "2 arranques directos",
+                        "price": 102396
+                    },
+                    {
+                        "description": "3 arranques directos",
+                        "price": 142692
+                    },
+                    {
+                        "description": "4 arranques directos",
+                        "price": 197110
+                    },
+                    {
+                        "description": "5 arranques directos",
+                        "price": 364113
+                    },
+                    {
+                        "description": "Más de 5 arranques con automatismo",
+                        "price": 757965
+                    },
+                    {
+                        "description": "Tablero de comando de sistema de purificación de agua de pileta + iluminación",
+                        "price": 189911
+                    },
+                    {
+                        "description": "Tablero de comando de sistema riego automatizado 4 circuitos (con autómatas programables)",
+                        "price": 271331
+                    },
+                    {
+                        "description": "Tablero arranque estrella triángulo hasta 10 hp",
+                        "price": 240304
+                    },
+                    {
+                        "description": "Tablero arranque estrella triángulo hasta 30 hp",
+                        "price": 352268
+                    },
+                    {
+                        "description": "Tablero arranque estrella triángulo hasta 100 hp",
+                        "price": 1126563
+                    },
+                    {
+                        "description": "Tablero de medidores hasta 5 medidores",
+                        "price": 485392
+                    },
+                    {
+                        "description": "Tablero de medidores hasta 10 medidores",
+                        "price": 717669
+                    },
+                    {
+                        "description": "Tablero de medidores hasta 16 medidores",
+                        "price": 942908
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Mantenimiento de tableros eléctricos e instalaciones eléctricas",
+                "sub_category_items": [
+                    {
+                        "description": "Hasta 20 polos",
+                        "price": 69460
+                    },
+                    {
+                        "description": "Hasta 50 polos",
+                        "price": 103684
+                    },
+                    {
+                        "description": "Hasta 100 polos",
+                        "price": 157435
+                    },
+                    {
+                        "description": "Arranque directo con contactores",
+                        "price": 69658
+                    },
+                    {
+                        "description": "Verificación de las condiciones de seguridad para protección de las personas (importe básico)",
+                        "price": 133538
+                    },
+                    {
+                        "description": "Medición y verificación de resistencia del sistema puesta a tierra (x jabalina)",
+                        "price": 101292
+                    },
+                    {
+                        "description": "Verificación de resistencia de aislación de instalaciones",
+                        "price": 115759
+                    },
+                    {
+                        "description": "Medición de la impedancia del lazo de falla",
+                        "price": 467306
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Varios",
+                "sub_category_items": [
+                    {
+                        "description": "Cargo por diseño de instalación sin planos hasta 10 bocas con computo de materiales",
+                        "price": 90459
+                    },
+                    {
+                        "description": "Cargo por diseño de instalación sin planos hasta 25 bocas con computo de materiales",
+                        "price": 135677
+                    },
+                    {
+                        "description": "Cargo por diseño de instalación sin planos hasta 50 bocas con computo de materiales",
+                        "price": 226136
+                    },
+                    {
+                        "description": "Cargo por diseño de instalación sin planos hasta 100 bocas con computo de materiales",
+                        "price": 325588
+                    },
+                    {
+                        "description": "Cargo por diseño de instalación sin planos hasta 150 bocas con computo de materiales",
+                        "price": 452226
+                    },
+                    {
+                        "description": "Cargo por adquisición de materiales eléctricos para la obra (en porcentaje sobre total de materiales)",
+                        "price": 0
+                    },
+                    {
+                        "description": "Sensores de movimiento y/o presencia",
+                        "price": 45218
+                    },
+                    {
+                        "description": "Empalmes de cables subterráneos",
+                        "price": 70702
+                    },
+                    {
+                        "description": "Reparación de luminarias en altura > 4 m",
+                        "price": 73899
+                    },
+                    {
+                        "description": "Reparación de artefactos de tubos fluorescentes",
+                        "price": 21689
+                    },
+                    {
+                        "description": "Revisión de fugas de corriente en instalaciones monofásicas mínimo 1 hora",
+                        "price": 65918
+                    },
+                    {
+                        "description": "Revisión de fugas de corriente en instalaciones trifásicos mínimo 1 hora",
+                        "price": 114540
+                    },
+                    {
+                        "description": "Incremento por hora en revisión de fugas de corriente",
+                        "price": 23368
+                    },
+                    {
+                        "description": "Conexión de motores monofásicas",
+                        "price": 37766
+                    },
+                    {
+                        "description": "Colocación de interruptores para cortinas",
+                        "price": 58535
+                    },
+                    {
+                        "description": "Conexión de cartelería con interruptores horarios y o fotocélulas",
+                        "price": 84157
+                    },
+                    {
+                        "description": "Conexión de paneles solares",
+                        "price": 99498
+                    },
+                    {
+                        "description": "Tablero con automatización de 4 canales (LOGO, ARRAY, ZELIO)",
+                        "price": 476767
+                    },
+                    {
+                        "description": "Tablero con automatización de 8 canales (LOGO, ARRAY, ZELIO)",
+                        "price": 649842
+                    },
+                    {
+                        "description": "Instalación de aire acondicionado Split hasta 3000 frigorías s/instalación eléctrica",
+                        "price": 115000
+                    },
+                    {
+                        "description": "Instalación de aire acondicionado Split hasta 6000 frigorías s/instalación eléctrica",
+                        "price": 161000
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia monofásico hasta 2 Kvar",
+                        "price": 66792
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia trifásico directo hasta 10 kvar",
+                        "price": 133538
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia trifásico directo hasta 20 Kvar",
+                        "price": 178066
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia trifásico con contactor hasta 10 Kvar",
+                        "price": 133538
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia trifásico con contactor hasta 20 Kvar",
+                        "price": 211462
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia automático hasta 50 Kvar 6 pasos",
+                        "price": 556462
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia automático hasta 100 Kvar 6 pasos",
+                        "price": 1001604
+                    },
+                    {
+                        "description": "Tablero de corrección de factor de potencia automático hasta 150 Kvar 6 pasos",
+                        "price": 1335495
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category_name": "CORRIENTES DEBILES",
+        "category_items": [
+            {
+                "sub_category_name": "Colocación de porteros eléctricos unifamiliar (audio solo)",
+                "sub_category_items": [
+                    {
+                        "description": "Portero de un pulsador en domicilio hasta 20 m",
+                        "price": 100142
+                    },
+                    {
+                        "description": "Portero de un pulsador con dos teléfonos para domicilio hasta 20 m",
+                        "price": 150374
+                    },
+                    {
+                        "description": "Por elementos adicionales (teléfono, cerradura, repetidos, etc.)",
+                        "price": 30383
+                    },
+                    {
+                        "description": "Colocación de porteros eléctricos unifamiliar (audio + video)",
+                        "price": 190670
+                    },
+                    {
+                        "description": "Por elementos adicionales portero c/video (teléfono, cerradura, repetidos, etc.)",
+                        "price": 52164
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Portero en edificio (audio sólo) multifamiliar",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación de frente",
+                        "price": 88941
+                    },
+                    {
+                        "description": "Cableado por departamento",
+                        "price": 27853
+                    },
+                    {
+                        "description": "Cableado línea troncal por caja de derivación",
+                        "price": 27853
+                    },
+                    {
+                        "description": "Colocación de teléfonos",
+                        "price": 19182
+                    },
+                    {
+                        "description": "Cerradura eléctrica",
+                        "price": 31349
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Centrales telefónicas",
+                "sub_category_items": [
+                    {
+                        "description": "Central telefónica con 2 internos",
+                        "price": 112608
+                    },
+                    {
+                        "description": "Central telefónica con 4 internos",
+                        "price": 150075
+                    },
+                    {
+                        "description": "Central telefónica con 8 internos",
+                        "price": 179170
+                    },
+                    {
+                        "description": "Central telefónica con 16 internos",
+                        "price": 307464
+                    },
+                    {
+                        "description": "Cableado por interno",
+                        "price": 23667
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Sistemas de seguridad",
+                "sub_category_items": [
+                    {
+                        "description": "Cableado de cámaras de seguridad por boca",
+                        "price": 23368
+                    },
+                    {
+                        "description": "Central hasta 6 cámaras de seguridad",
+                        "price": 259130
+                    },
+                    {
+                        "description": "Central de 6 a 18 cámaras",
+                        "price": 415932
+                    },
+                    {
+                        "description": "Central de CCTV cerrado",
+                        "price": 468096
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Varios",
+                "sub_category_items": [
+                    {
+                        "description": "Cableado de red, teléfono o TV x metro en cañerías o cablecanal",
+                        "price": 1449
+                    },
+                    {
+                        "description": "Cableado de red, teléfono o TV x metro en bandejas a < 4 m",
+                        "price": 6486
+                    },
+                    {
+                        "description": "Cableado de red, teléfono o TV x metro en bandejas a > 4 m",
+                        "price": 10074
+                    },
+                    {
+                        "description": "Colocación de fichas o tomas de teléfono o TV",
+                        "price": 6394
+                    },
+                    {
+                        "description": "Colocación de derivadores TV",
+                        "price": 6762
+                    },
+                    {
+                        "description": "Colocación de fichas o tomas de red",
+                        "price": 7682
+                    },
+                    {
+                        "description": "Colocación de tomas de TV y teléfono con cableado hasta 20 m",
+                        "price": 35397
+                    },
+                    {
+                        "description": "Colocación de tomas de red con cableado hasta 20 m",
+                        "price": 36708
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category_name": "COMPUESTOS",
+        "category_items": [
+            {
+                "sub_category_name": "Compuesto Instalaciones embutidas",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación de una boca de tomacorriente simple con cañería metálica (hasta 50 bocas)",
+                        "price": 52808
+                    },
+                    {
+                        "description": "Instalación de una boca de tomacorriente doble con cañería metálica (hasta 50 bocas)",
+                        "price": 55990
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor simple con cañería metálica (hasta 50 bocas)",
+                        "price": 52808
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor combinación con cañería metálica (hasta 50 bocas)",
+                        "price": 88703
+                    },
+                    {
+                        "description": "Instalación de una boca de tomacorriente simple con cañería metálica (de 51 a 100 bocas)",
+                        "price": 44482
+                    },
+                    {
+                        "description": "Instalación de una boca de tomacorriente doble con cañería metálica (de 51 a 100 bocas)",
+                        "price": 47679
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor simple con cañería metálica (de 51 a 100 bocas)",
+                        "price": 44482
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor combinación con cañería metálica (de 51 a 100 bocas)",
+                        "price": 76337
+                    }
+                ]
+            },
+            {
+                "sub_category_name": "Compuesto Instalaciones A LA VISTA",
+                "sub_category_items": [
+                    {
+                        "description": "Instalación de una boca de tomacorriente simple con cañería metálica (hasta 50 bocas)",
+                        "price": 46736
+                    },
+                    {
+                        "description": "Instalación de una boca de tomacorriente doble con cañería metálica (hasta 50 bocas)",
+                        "price": 49933
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor simple con cañería metálica (hasta 50 bocas)",
+                        "price": 46736
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor combinación con cañería metálica (hasta 50 bocas)",
+                        "price": 79672
+                    },
+                    {
+                        "description": "Instalación de una boca de tomacorriente simple con cañería metálica (de 51 a 100 bocas)",
+                        "price": 39353
+                    },
+                    {
+                        "description": "Instalación de una boca de tomacorriente doble con cañería metálica (de 51 a 100 bocas)",
+                        "price": 42550
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor simple con cañería metálica (de 51 a 100 bocas)",
+                        "price": 39353
+                    },
+                    {
+                        "description": "Instalación de una boca iluminación. Un interruptor combinación con cañería metálica (de 51 a 100 bocas)",
+                        "price": 68632
+                    }
+                ]
+            }
+        ]
+    }
+]

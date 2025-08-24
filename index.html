@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Precios Eléctricos</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #34495e;
+            --success-color: #27ae60;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            color: var(--dark-color);
+        }
+        
+        .error {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffebee;
+            color: var(--accent-color);
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        
+        .category {
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        .category-header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 15px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .category-header h2 {
+            margin: 0;
+        }
+        
+        .category-content {
+            display: none;
+            padding: 0;
+        }
+        
+        .category.expanded .category-content {
+            display: block;
+        }
+        
+        .sub-category {
+            border-bottom: 1px solid #eee;
+        }
+        
+        .sub-category:last-child {
+            border-bottom: none;
+        }
+        
+        .sub-category-header {
+            background-color: var(--light-color);
+            padding: 12px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .sub-category-header h3 {
+            margin: 0;
+            color: var(--dark-color);
+        }
+        
+        .sub-category-content {
+            display: none;
+            padding: 0;
+        }
+        
+        .sub-category.expanded .sub-category-content {
+            display: block;
+        }
+        
+        .items-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .item {
+            padding: 15px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .item:last-child {
+            border-bottom: none;
+        }
+        
+        .item:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .item-description {
+            flex: 1;
+            padding-right: 15px;
+        }
+        
+        .item-price {
+            font-weight: bold;
+            color: var(--success-color);
+            min-width: 120px;
+            text-align: right;
+        }
+        
+        .toggle-icon::after {
+            content: "▼";
+            font-size: 0.8em;
+            transition: transform 0.3s ease;
+        }
+        
+        .expanded .toggle-icon::after {
+            transform: rotate(180deg);
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .search-input:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            display: none;
+        }
+        
+        @media (max-width: 768px) {
+            .item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .item-price {
+                margin-top: 5px;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Catálogo de Precios Eléctricos</h1>
+            <p>Consulta los precios de servicios eléctricos y de corrientes débiles</p>
+        </header>
+        
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Buscar servicios...">
+        </div>
+        
+        <div class="error" id="error-message">
+            No se pudo cargar el archivo de precios. Asegúrate de que el archivo example.json esté en el mismo directorio.
+        </div>
+        
+        <div class="loading" id="loading">Cargando datos...</div>
+        
+        <div id="catalog"></div>
+        
+        <div class="no-results" id="no-results">
+            No se encontraron resultados para tu búsqueda.
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const catalogContainer = document.getElementById('catalog');
+            const loadingElement = document.getElementById('loading');
+            const errorElement = document.getElementById('error-message');
+            const noResultsElement = document.getElementById('no-results');
+            const searchInput = document.querySelector('.search-input');
+            
+            let catalogData = [];
+            
+            // Función para cargar el JSON
+            async function loadCatalog() {
+                try {
+                    const response = await fetch('example.json');
+                    
+                    if (!response.ok) {
+                        throw new Error('No se pudo cargar el archivo');
+                    }
+                    
+                    catalogData = await response.json();
+                    displayCatalog(catalogData);
+                    loadingElement.style.display = 'none';
+                    
+                    // Configurar búsqueda
+                    setupSearch();
+                    
+                } catch (error) {
+                    console.error('Error:', error);
+                    loadingElement.style.display = 'none';
+                    errorElement.style.display = 'block';
+                }
+            }
+            
+            // Función para mostrar el catálogo
+            function displayCatalog(data) {
+                catalogContainer.innerHTML = '';
+                
+                data.forEach(category => {
+                    const categoryElement = createCategoryElement(category);
+                    catalogContainer.appendChild(categoryElement);
+                });
+            }
+            
+            // Crear elemento de categoría
+            function createCategoryElement(category) {
+                const categoryDiv = document.createElement('div');
+                categoryDiv.className = 'category';
+                
+                const categoryHeader = document.createElement('div');
+                categoryHeader.className = 'category-header';
+                categoryHeader.innerHTML = `
+                    <h2>${category.category_name}</h2>
+                    <span class="toggle-icon"></span>
+                `;
+                
+                const categoryContent = document.createElement('div');
+                categoryContent.className = 'category-content';
+                
+                category.category_items.forEach(subCategory => {
+                    const subCategoryElement = createSubCategoryElement(subCategory);
+                    categoryContent.appendChild(subCategoryElement);
+                });
+                
+                categoryDiv.appendChild(categoryHeader);
+                categoryDiv.appendChild(categoryContent);
+                
+                // Toggle categoría
+                categoryHeader.addEventListener('click', () => {
+                    categoryDiv.classList.toggle('expanded');
+                });
+                
+                return categoryDiv;
+            }
+            
+            // Crear elemento de subcategoría
+            function createSubCategoryElement(subCategory) {
+                const subCategoryDiv = document.createElement('div');
+                subCategoryDiv.className = 'sub-category';
+                
+                const subCategoryHeader = document.createElement('div');
+                subCategoryHeader.className = 'sub-category-header';
+                subCategoryHeader.innerHTML = `
+                    <h3>${subCategory.sub_category_name}</h3>
+                    <span class="toggle-icon"></span>
+                `;
+                
+                const subCategoryContent = document.createElement('div');
+                subCategoryContent.className = 'sub-category-content';
+                
+                const itemsList = document.createElement('ul');
+                itemsList.className = 'items-list';
+                
+                subCategory.sub_category_items.forEach(item => {
+                    const itemElement = createItemElement(item);
+                    itemsList.appendChild(itemElement);
+                });
+                
+                subCategoryContent.appendChild(itemsList);
+                subCategoryDiv.appendChild(subCategoryHeader);
+                subCategoryDiv.appendChild(subCategoryContent);
+                
+                // Toggle subcategoría
+                subCategoryHeader.addEventListener('click', () => {
+                    subCategoryDiv.classList.toggle('expanded');
+                });
+                
+                return subCategoryDiv;
+            }
+            
+            // Crear elemento de ítem
+            function createItemElement(item) {
+                const li = document.createElement('li');
+                li.className = 'item';
+                
+                // Formatear precio (si es numérico, agregar símbolo $ y puntos para miles)
+                let priceFormatted = item.price;
+                if (typeof item.price === 'number') {
+                    priceFormatted = '$ ' + item.price.toLocaleString('es-AR');
+                }
+                
+                li.innerHTML = `
+                    <div class="item-description">${item.description}</div>
+                    <div class="item-price">${priceFormatted}</div>
+                `;
+                
+                return li;
+            }
+            
+            // Configurar funcionalidad de búsqueda
+            function setupSearch() {
+                searchInput.addEventListener('input', function() {
+                    const searchTerm = this.value.toLowerCase().trim();
+                    
+                    if (searchTerm === '') {
+                        displayCatalog(catalogData);
+                        noResultsElement.style.display = 'none';
+                        return;
+                    }
+                    
+                    // Filtrar datos
+                    const filteredData = catalogData.map(category => {
+                        // Copiar la categoría
+                        const categoryCopy = {...category};
+                        
+                        // Filtrar subcategorías
+                        categoryCopy.category_items = category.category_items.map(subCategory => {
+                            // Copiar la subcategoría
+                            const subCategoryCopy = {...subCategory};
+                            
+                            // Filtrar items
+                            subCategoryCopy.sub_category_items = subCategory.sub_category_items.filter(item => 
+                                item.description.toLowerCase().includes(searchTerm)
+                            );
+                            
+                            return subCategoryCopy;
+                        }).filter(subCategory => subCategory.sub_category_items.length > 0);
+                        
+                        return categoryCopy;
+                    }).filter(category => category.category_items.length > 0);
+                    
+                    // Mostrar resultados filtrados o mensaje de no resultados
+                    if (filteredData.length > 0) {
+                        displayCatalog(filteredData);
+                        noResultsElement.style.display = 'none';
+                        
+                        // Expandir todas las categorías y subcategorías con resultados
+                        document.querySelectorAll('.category, .sub-category').forEach(el => {
+                            el.classList.add('expanded');
+                        });
+                    } else {
+                        catalogContainer.innerHTML = '';
+                        noResultsElement.style.display = 'block';
+                    }
+                });
+            }
+            
+            // Iniciar carga del catálogo
+            loadCatalog();
+        });
+    </script>
+</body>
+</html>
