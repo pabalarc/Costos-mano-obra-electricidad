@@ -1,4 +1,4 @@
-# ⚡️ Costos de Mano de Obra y Materiales de Electricidad
+# ⚡️ Costos de Mano de Obra y Materiales de Electricidad para la provincia de Corrientes y alrededores.
 
 Este repositorio contiene una base de datos estructurada en formato JSON para la gestión de precios de servicios y materiales eléctricos. La información está organizada de manera jerárquica para facilitar la consulta y el uso en diferentes proyectos, como aplicaciones de presupuestación, sistemas de gestión de costos o simplemente como una referencia detallada.
 
