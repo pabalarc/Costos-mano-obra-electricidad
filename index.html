@@ -223,7 +223,7 @@
         </div>
         
         <div class="error" id="error-message">
-            No se pudo cargar el archivo de precios. Asegúrate de que el archivo example.json esté en el mismo directorio.
+            No se pudo cargar el archivo de precios. Asegúrate de que el archivo data.json esté en el mismo directorio.
         </div>
         
         <div class="loading" id="loading">Cargando datos...</div>
@@ -248,7 +248,7 @@
             // Función para cargar el JSON
             async function loadCatalog() {
                 try {
-                    const response = await fetch('example.json');
+                    const response = await fetch('data.json');
                     
                     if (!response.ok) {
                         throw new Error('No se pudo cargar el archivo');
